@@ -1,0 +1,9 @@
+        if (gameTable[0][0] == gameTable[0][1] && gameTable[0][0] == gameTable[0][2] && gameTable[0][0] == 'O') {
+            return true;
+        }
+        if (gameTable[1][0] == gameTable[1][1] && gameTable[1][0] == gameTable[1][2] && gameTable[1][0] == 'O') {
+            return true;
+        }
+        if (gameTable[2][0] == gameTable[2][1] && gameTable[2][0] == gameTable[2][2] && gameTable[2][0] == 'O') {
+            return true;
+        }
